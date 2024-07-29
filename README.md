@@ -1,4 +1,9 @@
 # Phase-4-Project
+ Kelvin Mwaura
+ Abigael Nyabaga
+Prossy Nansubuga
+
+
 FlickFlare Movie Recommender System
 
 Overview:
