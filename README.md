@@ -25,10 +25,66 @@ To address this issue, FlickFlare has approached us, RODATA-a data analytics com
 
  Main Objective
 
-    To build a movie recommender system that suggests top movies to streaming users based on movie ratings
+   To build a movie recommender system that suggests top movies to streaming users based on movie ratings
 
 Specific Objectives
 
 1. To Implement and compare SVD, NMF, and KNN collaborative filtering algorithms for movie recommendation, evaluating their performance using RMSE on a benchmark dataset of user-movie ratings
 
 2. To use the model witn the lowest rmse  to generate personalized top-N movie recommendations for streaming users.
+
+
+   Metric for Success
+
+
+Goal: To Achieve at least 80% accuracy in recommending the top five movies.
+
+Approach:
+
+Model Implementation: To Utilize SVD, NMF, and KNN algorithms to predict user ratings and rank movies accordingly.
+
+Evaluation: Measure the accuracy of predictions using RMSE. The goal is to achieve an RMSE that corresponds to at least 80% accuracy in the top five recommendations.
+
+Optimization: Continuously tune and validate model parameters to improve accuracy. We will Use techniques like cross-validation to ensure the robustness of the models
+
+
+### **Data Understanding**
+
+The data used has been sourced from the MovieLens dataset from the GroupLens research lab at the University of Minnesota.
+
+It contains 100,836 ratings and 3,683 tag applications across 9,742 movies. These data were created by 610 users.
+
+The dataset is distributed among four CSV files:
+
+    links.csv
+    movies.csv
+    ratings.csv
+    tags.csv
+
+1. **movies.csv**
+
+Each line of this file after the header row represents one movie and has the following columns:
+
+    movieId: Unique ID for each movie
+    title: Name of the movie followed by its year of release
+    genres: Categories that a movie might fall into, separated by |
+
+
+
+2. **tags.csv**
+
+Each line of this file after the header row represents one tag applied to one movie by one user and has the following columns:
+
+    userId: Unique ID for each user
+    movieId: Unique ID for each movie
+    tag: User-generated metadata about the movie in the form of short, meaningful phrases
+    timestamp: Time when the tag was provided by the user
+
+3. **ratings.csv**
+
+Each line of this file after the header row represents one rating and has the following columns:
+
+    userId: Unique ID for each user
+    movieId: Unique ID for each movie
+    rating: Rating given by the user for the movie. Ratings are made on a 5-star scale with 0.5 increments
+    timestamp: Time when the rating was given
