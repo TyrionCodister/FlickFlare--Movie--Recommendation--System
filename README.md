@@ -124,3 +124,17 @@ This is what we observed from the modeling bit :
 -NMF (Non-negative Matrix Factorization): Performs slightly better than KNN with an RMSE of about 0.9.
  
  -SVD (Singular Value Decomposition): The lowest RMSE of about 0.95, very close to NMF.
+
+
+ Based on these results, we recommend using the SVD (Singular Value Decomposition) model for our recommendation system. Here's why:
+
+ SVD has a lower overall RMSE (0.8828) compared to NMF (0.9231), indicating better average performance across the entire test set.
+
+ While NMF performed better for the single example we looked at, the lower RMSE of SVD suggests it generalizes better across a wide range of user-movie pairs.
+
+
+ RECOMMENDATIONS AND CONCLUSIONS 
+
+To enhance the effectiveness of our movie recommendation system, we recommend implementing a feedback mechanism where users can rate the relevance of the recommendations they receive. This user feedback should be continuously utilized to refine and adjust the recommendation algorithms. Given its superior performance and accuracy, the SVD model should remain the primary recommendation engine to ensure users receive the most relevant suggestions. Additionally, it is crucial to ensure that the recommendation system is scalable to accommodate an increasing number of users and movie entries, potentially leveraging cloud-based solutions or distributed computing as necessary.
+
+The project has successfully addressed the core challenge of user dissatisfaction with movie recommendations, as previously noted in Google Play Store feedback. By leveraging collaborative filtering through SVD, we've demonstrated the effectiveness of utilizing collective user behavior for personalized suggestions. This approach not only aligns with our initial objectives but also sets a strong foundation for improving user experience and engagement. The system's ability to provide accurate, personalized recommendations positions it well to meet user expectations and potentially increase user satisfaction and retention rates
