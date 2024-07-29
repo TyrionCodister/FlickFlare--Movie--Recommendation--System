@@ -112,7 +112,8 @@ MODELLING
 We used the SVD, KNN nearest neighbors, and the NMF model to build our collaborative filtering recommender system.
 This is what we observed from the modeling bit :
 
-![MODELLING IMAGE](https://github.com/user-attachments/assets/e465a959-007b-4e8c-a8ba-ad51fba11f89)
+![MODELLING_IMAGE-removebg-preview](https://github.com/user-attachments/assets/b38e65c1-a01e-43c8-801c-4c0b8a65139d)
+
 
 
 
