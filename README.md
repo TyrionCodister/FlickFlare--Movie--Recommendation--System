@@ -88,14 +88,33 @@ Each line of this file after the header row represents one rating and has the fo
     movieId: Unique ID for each movie
     rating: Rating given by the user for the movie. Ratings are made on a 5-star scale with 0.5 increments
     timestamp: Time when the rating was given
-EDA VISUALS
+    
+EDA 
+Exploratory Data Analysis: During the Exploratory Data Analysis (EDA) phase, we delve into the dataset to uncover its fundamental attributes and patterns. This process involves examining summary statistics, visualizing distributions, identifying correlations, and detecting outliers. EDA is a crucial preliminary step, offering insights that inform subsequent data preprocessing and modeling decisions.
+
+This image shows the top 10 movies that received the highest number of 5-star ratings. Key observations:
+
+"The Shawshank Redemption" (1994) leads with the most 5-star ratings.
+
+Classic films from the 1990s dominate the list
+
+This data suggests these movies are highly regarded by viewers and could be strong candidates for recommendations in a movie recommender system.
+
+
+
 ![EDA_JPEG-removebg-preview](https://github.com/user-attachments/assets/9fc1be82-405a-4d1e-9704-74a8e04a1804)
 
 
 
 
+
+MODELLING
 We used the SVD, KNN nearest neighbors, and the NMF model to build our collaborative filtering recommender system.
 This is what we observed from the modeling bit :
+
+![MODELLING IMAGE](https://github.com/user-attachments/assets/e465a959-007b-4e8c-a8ba-ad51fba11f89)
+
+
 
 -Baseline model: Had the highest RMSE of about 3.5, indicating poor performance.
 
