@@ -88,6 +88,8 @@ Each line of this file after the header row represents one rating and has the fo
     movieId: Unique ID for each movie
     rating: Rating given by the user for the movie. Ratings are made on a 5-star scale with 0.5 increments
     timestamp: Time when the rating was given
+EDA VISUALS
+![image](https://github.com/user-attachments/assets/17cb597e-7568-4d3e-8857-3e2abb86d0ef)
 
 
 We used the SVD, KNN nearest neighbors, and the NMF model to build our collaborative filtering recommender system.
