@@ -88,3 +88,15 @@ Each line of this file after the header row represents one rating and has the fo
     movieId: Unique ID for each movie
     rating: Rating given by the user for the movie. Ratings are made on a 5-star scale with 0.5 increments
     timestamp: Time when the rating was given
+
+
+We used the SVD, KNN nearest neighbors, and the NMF model to build our collaborative filtering recommender system.
+This is what we observed from the modeling bit :
+
+-Baseline model: Had the highest RMSE of about 3.5, indicating poor performance.
+
+-KNN (K-Nearest Neighbors): Shows significant improvement with an RMSE of about 0.95.
+
+-NMF (Non-negative Matrix Factorization): Performs slightly better than KNN with an RMSE of about 0.9.
+ 
+ -SVD (Singular Value Decomposition): The lowest RMSE of about 0.95, very close to NMF.
