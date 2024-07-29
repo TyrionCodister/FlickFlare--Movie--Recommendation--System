@@ -89,7 +89,8 @@ Each line of this file after the header row represents one rating and has the fo
     rating: Rating given by the user for the movie. Ratings are made on a 5-star scale with 0.5 increments
     timestamp: Time when the rating was given
 EDA VISUALS
-![a870cefd-fd92-4816-b332-ddac12de6919](https://github.com/user-attachments/assets/21670f14-7d35-4223-b54f-df6b8fd4296d)
+![EDA_JPEG-removebg-preview](https://github.com/user-attachments/assets/9fc1be82-405a-4d1e-9704-74a8e04a1804)
+
 
 
 
