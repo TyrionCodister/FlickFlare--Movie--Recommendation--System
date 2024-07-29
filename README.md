@@ -1,4 +1,10 @@
-# Phase-4-Project
+FLICKFLARE MOVIE RECOMMENDATION SYSTEM
+
+
+![FlickFlareLogo](https://github.com/user-attachments/assets/2439fab4-6a8e-4f0d-a7d2-1e9a6602a860)
+
+
+
  Kelvin Mwaura
  
  Abigael Nyabaga
